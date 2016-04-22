@@ -7,7 +7,7 @@ int main()
     int MATRIZ_A[45][45],MATRIZ_B[45][45],MATRIZ_C[45][45];
     int f_A,c_A,c_B;
     int i,j,k;
-    /*Creación de la matriz A*/
+    /*CreaciÃ³n de la matriz A*/
     printf("\tMATRIZ A\n");
     printf("Numero de filas de la matriz A: ");
     scanf("%d",&f_A);
@@ -21,7 +21,7 @@ int main()
           scanf("%d",&MATRIZ_A[i][j]);
         }
     }
-    /*Creación de la matriz B*/
+    /*CreaciÃ³n de la matriz B*/
     printf("\n\tMATRIZ B\n");
     printf("Numero de filas de la matriz B: %d\n",c_A);
     printf("Numero de columnas de la matriz B: ");
@@ -34,7 +34,7 @@ int main()
           scanf("%d",&MATRIZ_B[i][j]);
         }
     }
-    /*Creación de la matriz C*/
+    /*CreaciÃ³n de la matriz C*/
     for(i=0;i<f_A;i++)
     {
         for(j=0;j<c_B;j++) MATRIZ_C[i][j]=0;
