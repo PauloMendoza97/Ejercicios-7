@@ -6,7 +6,7 @@ int main(){
   char* cadena = (char*)malloc(100);/*asignar memoria para una variable*/
   char* cadena1 = (char*)malloc(100);
   printf("Escribe la cadena\n");
-  gets(cadena);/*lee una cadena de caracteres del teclado hasta que se encuentra el car·cter '\n'*/
+  gets(cadena);/*lee una cadena de caracteres del teclado hasta que se encuentra el car√°cter '\n'*/
   int num_caract1,num_caract2,apoyo, i, j;
   apoyo= 1;
   j = 0;
